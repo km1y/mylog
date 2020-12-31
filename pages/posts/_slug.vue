@@ -2,7 +2,6 @@
 <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
   <div class="origin-container px-5 py-24 mx-auto">
     <div class="blog-title text-center">
-      <!-- <p>{{ post.date }}</p> -->
       <time>{{ post.date | moment }}</time>
       <h1>{{ post.title }}</h1>
     </div>
@@ -20,7 +19,7 @@ export default {
     }
   },
   async asyncData ({ $content, params }) {
-    const post = await $content('drafts', params.slug).fetch()
+    const post = await $content('posts', params.slug).fetch()
     return { post }
   }
 }
