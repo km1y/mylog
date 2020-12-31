@@ -1,80 +1,44 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        mylog
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+<section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+  <div class="origin-container px-5 mx-auto">
+    <nuxt-content :document="home" />
   </div>
+</section>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
-
-export default Vue.extend({})
+export default{
+  async asyncData ({ $content, params }) {
+    const home = await $content('index').fetch()
+    return { home }
+  }
+}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+.nuxt-content h1 {
+  margin: 20px 0px;
+  line-height: 3.0rem;
+  font-size: 2.0rem;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.nuxt-content h2 {
+  border-bottom: solid 2px rgba(99, 179, 237, var(--text-opacity));
+  margin: 20px 0px;
+  line-height: 3.0rem;
+  font-size: 1.5rem;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.nuxt-content h3{
+  border-bottom: solid 0.5px grey;
+  margin: 20px 0px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.nuxt-content p{
+  line-height: 2em;
 }
 
-.links {
-  padding-top: 15px;
+.nuxt-content li{
+  line-height: 2em;
 }
 </style>

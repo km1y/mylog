@@ -1,6 +1,6 @@
 <template>
 <header class="text-gray-400 bg-gray-900 body-font">
-  <div class="origin-continer flex flex-wrap p-5 flex-col md:flex-row items-center">
+  <div class="origin-container flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nuxt-link to="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
       <span class="ml-3 text-xl">km1y.com</span>
     </nuxt-link>
@@ -11,10 +11,3 @@
   </div>
 </header>
 </template>
-
-<style scoped>
-.origin-continer{
-  width: 80%;
-  margin: 0 auto;
-}
-</style>

@@ -1,6 +1,6 @@
 <template>
 <footer class="text-gray-400 bg-gray-900 body-font">
-  <div class="origin-continer px-5 py-8 flex items-center sm:flex-row flex-col">
+  <div class="origin-container px-5 py-8 flex items-center sm:flex-row flex-col">
     <nuxt-link to="/" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
       <span class="ml-3 text-xl">km1y.com</span>
     </nuxt-link>
@@ -34,10 +34,3 @@
   </div>
 </footer>
 </template>
-
-<style scoped>
-.origin-continer {
-  width: 80%;
-  margin: 0 auto;
-}
-</style>

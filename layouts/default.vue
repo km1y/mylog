@@ -1,10 +1,50 @@
 <template>
   <div>
+    <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
+<script>
+import Vue from 'vue'
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+export default {
+    // created() {
+    //     this.setViewport();
+    // },
+    // methods: {
+    //     setViewport: function() {
+    //         let changeWindowSize = 375
+    //         let viewportContent = "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    //         if (window.innerWidth < changeWindowSize ) {
+    //             viewportContent = "width=375,user-scalable=no,viewport-fit=cover"
+    //         }
+    //         document.querySelector("meta[name='viewport']").setAttribute("content", viewportContent)
+    //     }
+    // }
+}
+</script>
+
 <style>
+.origin-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.origin-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+	.origin-container {
+    width: 50%;
+  }
+}
+
 html {
   font-family:
     'Source Sans Pro',
