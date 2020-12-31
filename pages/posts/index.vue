@@ -17,7 +17,7 @@ export default {
     Card
   },
   async asyncData ({ $content, params }) {
-    const posts = await $content('posts').fetch()
+    const posts = await $content('posts', { deep: true }).fetch()
     return { posts }
   }
 }
