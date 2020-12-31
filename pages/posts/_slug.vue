@@ -21,6 +21,56 @@ export default {
   async asyncData ({ $content, params }) {
     const post = await $content('posts', params.slug).fetch()
     return { post }
+  },
+  head() {
+    return {
+      title: `${this.post.title}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.post.description
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `https://km1y.com/posts/${this.post.id}`
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${this.post.title}`
+        },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.post.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.post.cover
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: 'OGP image'
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        { hid: 'twitter:site', name: 'twitter:site', content: '@kmly267' },
+        {
+          hid: 'og:site_name',
+          property: 'og:site_name',
+          content: `${this.post.title}`
+        },
+        { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' }
+      ]
+    }
   }
 }
 </script>

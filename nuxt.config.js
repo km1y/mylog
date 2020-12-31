@@ -8,7 +8,20 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      {property : 'og:url', content : 'https://km1y.com'},{
+        property : 'og:image',
+        content :
+            'https://twitter.com/kmly267/photo'
+      },
+      {property : 'og:image:alt', content : 'OGP image'},
+      {property : 'og:title', content : 'kmly.com'},
+      {property : 'og:type', content : 'website'},
+      { hid: 'og:description', property: 'og:description', content: 'km1yのlog' },
+      {property : 'og:site_name', content : 'kmly.com'},
+      {property : 'og:locale', content : 'ja_JP'},
+      {name : 'twitter:card', content : 'summary'},
+      {name : 'twitter:site', content : '@kmly267'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
