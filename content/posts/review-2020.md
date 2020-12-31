@@ -1,7 +1,7 @@
 ---
 title: "2020年の振り返り"
 date: 2020-12-31
-cover: ~/content/posts/review-2020/cover.jpg
+cover: "~/assets/review-2020/cover.jpg"
 id: review-2020
 tags:
   - ポエム
