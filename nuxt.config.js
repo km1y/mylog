@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'mylog',
+    title: 'kmly.com',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +12,7 @@ export default {
       {property : 'og:url', content : 'https://km1y.com'},{
         property : 'og:image',
         content :
-            'https://twitter.com/kmly267/photo'
+            '/profile.jpg'
       },
       {property : 'og:image:alt', content : 'OGP image'},
       {property : 'og:title', content : 'kmly.com'},
@@ -24,7 +24,7 @@ export default {
       {name : 'twitter:site', content : '@kmly267'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/profile.jpg' }
     ]
   },
 
