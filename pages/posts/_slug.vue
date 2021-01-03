@@ -2,6 +2,7 @@
 <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
   <div class="origin-container px-5 py-24 mx-auto">
     <div class="blog-title text-center">
+      <img class="mx-auto w-full" :src="post.cover" alt="Background Image">
       <time>{{ post.date | moment }}</time>
       <h1>{{ post.title }}</h1>
     </div>
