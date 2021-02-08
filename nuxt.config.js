@@ -1,7 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
@@ -16,7 +15,7 @@ export default {
       {property : 'og:url', content : 'https://km1y.com'},{
         property : 'og:image',
         content :
-            '/profile.jpg'
+            '/profile.png'
       },
       {property : 'og:image:alt', content : 'OGP image'},
       {property : 'og:title', content : 'kmly.com'},
@@ -28,7 +27,7 @@ export default {
       {name : 'twitter:site', content : '@kmly267'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/profile.jpg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
 
