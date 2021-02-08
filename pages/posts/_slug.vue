@@ -48,11 +48,11 @@ export default {
           property: 'og:description',
           content: this.post.description
         },
-        {
-          hid: 'og:image',
-          property: 'og:image',
-          content: this.post.cover
-        },
+        // {
+        //   hid: 'og:image',
+        //   property: 'og:image',
+        //   content: this.post.cover
+        // },
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',

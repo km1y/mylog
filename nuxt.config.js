@@ -1,6 +1,7 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+  mode: 'universal',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
@@ -15,7 +16,7 @@ export default {
       {property : 'og:url', content : 'https://km1y.com'},{
         property : 'og:image',
         content :
-            '/profile.png'
+            'https://km1y.com/profile.png'
       },
       {property : 'og:image:alt', content : 'OGP image'},
       {property : 'og:title', content : 'kmly.com'},
