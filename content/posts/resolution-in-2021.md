@@ -2,7 +2,7 @@
 title: "2021年の抱負"
 date: 2021-01-03
 cover: /posts/resolution-in-2021/cover.jpg
-id: resolution-in-2021s
+id: resolution-in-2021
 tags:
   - ポエム
   - 新年
