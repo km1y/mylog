@@ -39,6 +39,18 @@ export default{
 }
 
 .nuxt-content li{
+  list-style-type: disc;
   line-height: 2em;
+}
+
+.nuxt-content ul{
+  padding-left: 1.25rem;
+  /* padding-bottom: 20px; */
+}
+
+.nuxt-content a{
+  color: rgb(99, 179, 237);
+  font-weight: bolder;
+  padding-bottom: 5px 0px;
 }
 </style>
