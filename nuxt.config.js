@@ -12,7 +12,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'kmlyの活動ログ' },
       {property : 'og:url', content : 'https://km1y.com'},{
         property : 'og:image',
         content :
