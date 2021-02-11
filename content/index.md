@@ -8,27 +8,32 @@ I love writing code and studying something new especially computer science and b
 - Deep Learning
 - Medical Image Processing
 
-## Educations
+## Education
 ### April 2019 - Present
 Bachelor’s degree, Department of Infomation and Communication, 
 Meiji University, Japan
 
-## Experience
+## Work Experiences
 ### October 2020 - Present
-Server-side Engineer at JAPAN USEWARE SYSTEM Co.,Ltd.  
-Scala, Java, JavaScript
+Server-side Engineer (part time job).  
+Modification of medical database applications using Scala and Java.
 
 ### August 2020 - September 2020
-Resarch Internship at NARA Institute of Science and Technology  
-Python, TensorFlow
+Resarcher (Internship)  
+Research on medical imaging using deep learning at NARA Institute of Science and Technology .
 
 ### April 2020 - Jun 2020
-AR Engineer at World Maker, Inc.  
-Unity, C#, Google App Script
+AR Engineer (part time job).  
+Create LINE bot and AR application using Unity, C# and Google App Script.
 
 ### December 2019 - March 2020
-Server-side Engineer at Syukatsunet Co.,Ltd.  
-PHP, Vue.js
+Server-side Engineer（part time job）.  
+Modification of CMS using PHP and Vue.js.  
+
+## Other Experience
+### Web Speed Hackathon Online Vol.2
+Front-end performance tuning hackathon held by Cyber Agent.  
+I came in 11th out of about 70 people.
 
 ## Skills (Have used before at work)
 ### Languages
