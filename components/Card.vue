@@ -1,5 +1,5 @@
 <template>
-      <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
           <!-- <span class="font-semibold title-font text-white inline-block" v-for="tag in post.tags" :key="tag">{{ tag }}</span> -->
           <span class="title-font text-white inline-block">{{ post.tags.join(' / ') }}</span>
