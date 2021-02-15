@@ -1,7 +1,7 @@
 <template>
 <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
   <div class="origin-container px-5 mx-auto">
-    <nuxt-content :document="home" />
+    <nuxt-content :document="home" class="mb-8"/>
   </div>
 </section>
 </template>
