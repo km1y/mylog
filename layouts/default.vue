@@ -2,28 +2,16 @@
   <div>
     <Header />
     <Nuxt />
-    <Footer />
+    <FooterNew />
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
 import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
+// import Footer from '~/components/Footer.vue'
+import FooterNew from '~/components/FooterNew.vue'
 export default {
-    // created() {
-    //     this.setViewport();
-    // },
-    // methods: {
-    //     setViewport: function() {
-    //         let changeWindowSize = 375
-    //         let viewportContent = "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
-    //         if (window.innerWidth < changeWindowSize ) {
-    //             viewportContent = "width=375,user-scalable=no,viewport-fit=cover"
-    //         }
-    //         document.querySelector("meta[name='viewport']").setAttribute("content", viewportContent)
-    //     }
-    // }
 }
 </script>
 
